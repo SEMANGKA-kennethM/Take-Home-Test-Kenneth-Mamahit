@@ -1,0 +1,33 @@
+sum from #x to #y in a data of t number, n times
+1<=t<=1000
+-10000<=x,y<=10000
+
+
+info : 	- '#n' mean the number n
+      	- 'n'  mean the value of number n
+
+ALGO 1	O(n*t)
+
+1. repeat n times(
+2.  	pick #x and #y
+3.  	variable sum
+4. 	  from #x to #y add all number value to variabel sum
+5. 	  answer is sum:')
+6. )
+
+
+
+
+ALGO 2  O(n+t)
+
+1. from 1 to t do #num=#num+#num-1(example: #2=#2+#1)
+2. 
+3. repeat n times(
+4. 	 pick #x and #y
+5. 	 the answer is y-x :)
+6. )
+
+
+
+
+  	
